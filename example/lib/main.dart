@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await Bixolonprnt.platformVersion;
+      platformVersion = await BixolonPrinter.platformVersion;
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
@@ -36,6 +36,8 @@ class _MyAppState extends State<MyApp> {
     // message was in flight, we want to discard the reply rather than calling
     // setState to update our non-existent appearance.
     if (!mounted) return;
+
+    String result = await BixolonPrinter.bixolonPrinter('print hello');
 
     setState(() {
       _platformVersion = platformVersion;
@@ -51,7 +53,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: new GestureDetector(
             onTap: () {
-              Bixolonprnt.getSamplePrint("SPP-R310");
+              BixolonPrinter.bixolonPrinter("SPP-R310");
             },
             child: new Container(
               width: 500.0,

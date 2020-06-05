@@ -1,18 +1,10 @@
 package com.bixolonprnt;
+
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.support.v4.app.Fragment;
 
 import com.bixolon.commonlib.BXLCommonConst;
 import com.bixolon.commonlib.log.LogService;
-import com.bixolon.sample.CashDrawerFragment;
-import com.bixolon.sample.DirectIOFragment;
-import com.bixolon.sample.MainActivity;
-import com.bixolon.sample.MsrFragment;
-import com.bixolon.sample.PageModeFragment;
-import com.bixolon.sample.TextFragment;
-import com.bixolon.sample.ImageFragment;
-import com.bixolon.sample.BarcodeFragment;
 
 import java.nio.ByteBuffer;
 
@@ -43,14 +35,18 @@ import com.bxl.config.editor.BXLConfigLoader;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 
-public class BixolonPrinter implements ErrorListener, OutputCompleteListener, StatusUpdateListener, DirectIOListener, DataListener {
+public class BixolonPrinter {
 
-    private static Context context;
+    private Context context = null;
+    private BXLConfigLoader bxlConfigLoader = null;
+    private POSPrinter posPrinter = null;
 
-    public BixolonPrinter(Context context) {
+    public BixolonPrinter(MethodCall call, Context context) throws Exception {
+        this.context = context;
+
         String modelName = call.argument("modelName");
-        POSPrinter posPrinter = new POSPrinter(context);
-        posPrinter.open(modelName);
+        posPrinter = new POSPrinter(this.context);
+        posPrinter.open("SPP-R310");
         posPrinter.claim(3000);
         posPrinter.setDeviceEnabled(true);
         posPrinter.printNormal(POSPrinterConst.PTR_S_RECEIPT, "Hello World");

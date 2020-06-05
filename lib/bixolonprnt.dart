@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class Bixolonprnt {
+class BixolonPrinter {
   static const MethodChannel _channel = const MethodChannel('bixolonprnt');
 
   static Future<String> get platformVersion async {
@@ -11,9 +11,10 @@ class Bixolonprnt {
   }
 
 //"SPP-R310"
-  static Future<String> getSamplePrint(String modelName) async {
+  static Future<String> bixolonPrinter(String modelName) async {
+    print('print hello');
     final String result =
-        await _channel.invokeMethod('getSamplePrint', modelName);
+        await _channel.invokeMethod('BixolonPrinter', modelName);
     return result;
   }
 }
