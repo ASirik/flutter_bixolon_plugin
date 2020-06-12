@@ -204,16 +204,6 @@ public class FlutterpluginbixolonPlugin implements MethodCallHandler, RequestPer
       case "printNewLine":
         printNewLine(result);
         break;
-      case "printLeftRight":
-        if (arguments.containsKey("string1")) {
-          String string1 = (String) arguments.get("string1");
-          String string2 = (String) arguments.get("string2");
-          int size = (int) arguments.get("size");
-          printLeftRight(result, string1, string2, size);
-        } else {
-          result.error("invalid_argument", "argument 'message' not found", null);
-        }
-        break;
       default:
         result.notImplemented();
         break;

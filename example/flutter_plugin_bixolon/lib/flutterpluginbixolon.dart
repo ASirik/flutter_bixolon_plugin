@@ -3,14 +3,6 @@ import 'dart:typed_data';
 import 'package:flutter/services.dart';
 
 class FlutterpluginBixolon {
-  static const int STATE_OFF = 10;
-  static const int STATE_TURNING_ON = 11;
-  static const int STATE_ON = 12;
-  static const int STATE_TURNING_OFF = 13;
-  static const int STATE_BLE_TURNING_ON = 14;
-  static const int STATE_BLE_ON = 15;
-  static const int STATE_BLE_TURNING_OFF = 16;
-  static const int ERROR = -1;
   static const int CONNECTED = 1;
   static const int DISCONNECTED = 0;
 
@@ -73,13 +65,6 @@ class FlutterpluginBixolon {
           'printCustom', {'message': message, 'size': size, 'align': align});
 
   Future<dynamic> printNewLine() => _channel.invokeMethod('printNewLine');
-
-  Future<dynamic> printImage(String pathImage) =>
-      _channel.invokeMethod('printImage', {'pathImage': pathImage});
-
-  Future<dynamic> printLeftRight(String string1, String string2, int size) =>
-      _channel.invokeMethod('printLeftRight',
-          {'string1': string1, 'string2': string2, 'size': size});
 }
 
 class BluetoothDevice {
