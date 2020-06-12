@@ -11,6 +11,15 @@
       <excludeFolder url="file://$MODULE_DIR$/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/build" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />

@@ -2,11 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae2092fe-9e80-4c3b-a129-8af2e63abc24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BluetoothUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/java/com/example/myapplication/FirstFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/java/com/example/myapplication/SecondFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/MyApplication/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/src/main/java/com/flutterpluginbixolon/PrinterCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/lib/testprint.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonprntPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonprinterPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bixolonprnt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bixolonprnt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bixolonprnt.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bixolonprnt.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bixolonprnt.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bixolonprinter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +80,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asiri\AndroidStudioProjects\bixolon_prnt\android\src\main\java\com\bixolonprnt" />
       <recent name="C:\Users\asiri\AndroidStudioProjects\bixolon_prnt\example\android\app" />
       <recent name="C:\Users\asiri\AndroidStudioProjects\bixolon_prnt\android\libs" />
       <recent name="C:\Users\asiri\AndroidStudioProjects\bixolon_prnt\android" />
@@ -66,7 +114,17 @@
       <option name="presentableId" value="Default" />
       <updated>1591216495430</updated>
       <workItem from="1591280156367" duration="2089000" />
+      <workItem from="1591873965378" duration="367000" />
+      <workItem from="1591874425858" duration="48000" />
     </task>
+    <task id="LOCAL-00001" summary="change">
+      <created>1591375152126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591375152126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,10 +135,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
 </project>

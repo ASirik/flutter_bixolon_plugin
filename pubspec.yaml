@@ -29,9 +29,9 @@ flutter:
     platforms:
       android:
         package: com.bixolonprnt
-        pluginClass: BixolonprntPlugin
+        pluginClass: BixolonprinterPlugin
       ios:
-        pluginClass: BixolonprntPlugin
+        pluginClass: BixolonprinterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

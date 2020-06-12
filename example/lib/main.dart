@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:bixolonprnt/bixolonprnt.dart';
+import 'package:bixolonprnt/bixolonprinter.dart';
 
 void main() {
   runApp(MyApp());
@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
     // setState to update our non-existent appearance.
     if (!mounted) return;
 
-    String result = await BixolonPrinter.bixolonPrinter('print hello');
+    String result = await BixolonPrinter.main('SPP-R310');
 
     setState(() {
       _platformVersion = platformVersion;
@@ -53,7 +53,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: new GestureDetector(
             onTap: () {
-              BixolonPrinter.bixolonPrinter("SPP-R310");
+              BixolonPrinter.main('SPP-R310');
             },
             child: new Container(
               width: 500.0,

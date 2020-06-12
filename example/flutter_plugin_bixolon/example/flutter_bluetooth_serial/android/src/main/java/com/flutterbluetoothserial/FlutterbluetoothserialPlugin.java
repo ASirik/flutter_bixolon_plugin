@@ -1,4 +1,4 @@
-package com.bixolonprnt;
+package com.flutterbluetoothserial;
 
 import androidx.annotation.NonNull;
 
@@ -9,8 +9,8 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
-/** BixolonprntPlugin */
-public class BixolonprntPlugin implements FlutterPlugin, MethodCallHandler {
+/** FlutterbluetoothserialPlugin */
+public class FlutterbluetoothserialPlugin implements FlutterPlugin, MethodCallHandler {
   /// The MethodChannel that will the communication between Flutter and native Android
   ///
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
@@ -19,7 +19,7 @@ public class BixolonprntPlugin implements FlutterPlugin, MethodCallHandler {
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-    channel = new MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "bixolonprnt");
+    channel = new MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "flutterbluetoothserial");
     channel.setMethodCallHandler(this);
   }
 
@@ -33,8 +33,8 @@ public class BixolonprntPlugin implements FlutterPlugin, MethodCallHandler {
   // depending on the user's project. onAttachedToEngine or registerWith must both be defined
   // in the same class.
   public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), "bixolonprnt");
-    channel.setMethodCallHandler(new BixolonprntPlugin());
+    final MethodChannel channel = new MethodChannel(registrar.messenger(), "flutterbluetoothserial");
+    channel.setMethodCallHandler(new FlutterbluetoothserialPlugin());
   }
 
   @Override
