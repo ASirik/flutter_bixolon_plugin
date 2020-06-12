@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae2092fe-9e80-4c3b-a129-8af2e63abc24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BarcodeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonprinterPlugin.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BluetoothUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/CashDrawerFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/DirectIOFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/EtcFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/ImageFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/MsrFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/PageModeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/PrinterConnectActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/PrinterControl/BixolonPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/PrinterControl/EscapeSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/ScrFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/TabPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/TextFragment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/MyApplication/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/MyApplication/app/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/MyApplication/app/build.gradle" afterDir="false" />
@@ -44,12 +63,182 @@
       <change afterPath="$PROJECT_DIR$/example/MyApplication/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/MyApplication/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/MyApplication/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/settings_aar.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/src/main/java/com/flutterpluginbixolon/FlutterpluginbixolonPlugin.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/android/src/main/java/com/flutterpluginbixolon/PrinterCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/java/com/flutterpluginbixolon_example/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/java/com/flutterbluetoothserial_example/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/example/test/widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/ios/Assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/ios/Classes/FlutterbluetoothserialPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/ios/Classes/FlutterbluetoothserialPlugin.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/ios/Classes/SwiftFlutterbluetoothserialPlugin.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/ios/flutterbluetoothserial.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/lib/flutterbluetoothserial.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/test/flutterbluetoothserial_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/lib/main.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/lib/testprint.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/test/widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/ios/Assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/ios/Classes/FlutterpluginbixolonPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/ios/Classes/FlutterpluginbixolonPlugin.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/ios/Classes/SwiftFlutterpluginbixolonPlugin.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/ios/flutterpluginbixolon.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/lib/flutterpluginbixolon.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/test/flutterpluginbixolon_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ir_rsa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonprntPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonprinterPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/bixolonprnt/BixolonprntPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/flutter_plugin_bixolon/example/flutter_bluetooth_serial/android/src/main/java/com/flutterbluetoothserial/FlutterbluetoothserialPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bixolonprnt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bixolonprnt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bixolonprnt.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bixolonprinter.dart" afterDir="false" />
